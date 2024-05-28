@@ -1,0 +1,41 @@
+*{
+margin: 0 auto; 
+padding: 0;
+box-sizing: border-box;
+}
+body{
+    background-color: #87c8e0;
+}
+
+
+
+#menu1{
+    background-color: #084d6e ;
+    padding: 0px;
+    list-style: none;
+    float:top;
+    
+    
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+#menu1 li{
+    display: inline;
+}
+
+#menu1 li a{
+    color: white;
+    padding: 10px;
+    
+    display: inline-block;
+    text-decoration: none;
+    text-align: center, right;
+    transition: background 0.6s;
+    border-radius: 15%;
+}
+
+#menu1 li a:hover{
+    background-color: black;
+}
